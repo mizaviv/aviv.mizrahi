@@ -1,0 +1,22 @@
+*{
+    font-size: 40px;
+}
+
+body {
+    background-color: lightblue; 
+    border: 2px solid black;
+}
+h1{
+    color:blue
+}
+#p1{
+    color: red;
+}
+
+#H11{
+    color: green;
+}
+.header{
+    color:yellow;
+}
+

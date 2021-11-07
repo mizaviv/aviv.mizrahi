@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+  }
+  
+body {
+    background-color: rgba(173, 216, 230, 0.541); 
+    border: 2px solid black;
+    
+}
+
+.header{
+    color:rgb(0, 0, 0);
+}
+#H11{
+    color: rgb(40, 17, 104);
+}
