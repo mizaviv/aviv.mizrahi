@@ -1,0 +1,50 @@
+
+body{
+    background-color: turquoise;
+}
+#GridContainer{
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'left main main'
+    'left main main'
+}
+
+#Item1 {
+    grid-area: header;
+    height: 100px;
+    width: 900px;
+    /*padding: 20px;*/
+    margin: 20px;
+    background-color: white;
+}
+
+#Item2 {
+    grid-area: left;
+    height: 200px;
+    width: 300px;
+    /*padding: 20px;*/
+    margin: 20px;
+    background-color: white;
+}
+
+#Item3 {
+    grid-area: main;
+    height: 200px;
+    width: 375px;
+    /*padding: 20px;*/
+    margin: 20px;
+    background-color: white;
+}
+
+div div { /*הילדים של DIV*/
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+div{
+    border: black solid;
+}

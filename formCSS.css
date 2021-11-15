@@ -1,0 +1,63 @@
+:root{
+    --darkBlue: #242582;
+    --eggPlant: #553d67;
+    --pink: #f64c72;
+    --makeUp: #99738e;
+
+}
+body{
+    /*color: rgb(196, 118, 112);/*google color picker*/
+    background-color: var(--makeUp);
+    color: var(--darkBlue);
+}
+
+
+label {
+    /*color: blue;*/
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white; 
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+}
+#SingInPlease{
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+.Buxa{
+    /*background-color:lightyellow;*/
+    background-color: var(--eggPlant);
+    border: 2px solid white;
+}
+
+input.Buxa{ 
+    background-color: lightgray;
+}
+
+a{
+    color: red;
+}
+a:visited{
+    color:green;
+}
+a:link{
+    color: steelblue;
+}
+a:hover{
+    color: turquoise
+    ;
+}
+/* הערות*/
+@media only screen and (max-width: 600px){
+    body{
+        background-color: var(--makeUp);
+    }
+}
