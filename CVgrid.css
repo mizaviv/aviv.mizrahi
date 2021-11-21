@@ -1,3 +1,22 @@
+@keyframes RotatingAviv {
+    0%{
+        transform: rotate(0deg)
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    100%{
+        transform:rotate(360deg) ;/*אם הייתי רוצה מצבים באמצע הייתה בפרום עושה 0 אחוז ובטו עושה 100 אחוז*/
+    }
+}
+
+img{
+    width: 50%;
+    animation-name: RotatingAviv;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
 body{
     background-color:beige;
 }
@@ -69,4 +88,23 @@ div div{ /*a combination selector, that selects the divs that are the childs of 
     body{
         background-color: rgb(9, 26, 24);
     }
+}
+
+@keyframes RotatingAviv {
+    0%{
+        transform: rotate(0deg)
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    100%{
+        transform:rotate(360deg) ;/*אם הייתי רוצה מצבים באמצע הייתה בפרום עושה 0 אחוז ובטו עושה 100 אחוז*/
+    }
+}
+
+img{
+    width: 50%;
+    animation-name: RotatingAviv;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
